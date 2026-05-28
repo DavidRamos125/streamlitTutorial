@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 #Iconos de la webapp
 st.set_page_config(
-    page_title="Que sabemos del Titanic? version 2",
+    page_title="Que sabemos del Titanic version 2?",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
