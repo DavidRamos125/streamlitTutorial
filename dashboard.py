@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 #Iconos de la webapp
 st.set_page_config(
-    page_title="Que sabemos del Titanic version 2 ._.?",
+    page_title="Que sabemos del Titanic by fabian ramos ._.?",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -22,7 +22,7 @@ def load_data() -> pd.DataFrame:
 df = load_data()
 col_title, col_btn = st.columns([5, 1])
 with col_title:
-    st.title("¿Que sabemos del Titanic?")
+    st.title("¿Que sabemos del Titanic? (By fabian ramos - 4327)")
 with col_btn:
     st.write("")
 st.dataframe(df.head(10))
